@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.fas{
+	font-size:25px;
+}
+span{
+	color:orange;
+}
+.log{
+	background-color:rgb(51,46,46);
+}
+h1{
+	font-size:45px;
+	color:white;
+	font-weight:800;
+}
+.form-control{
+	background-color:rgb(70,61,61);
+	color:white;
+	border:none;
+	outline:none;
+	padding :23px 10px;
+}
+.form-control:focus{
+	background-color:rgb(63,56,56);
+	outline:none;
+	color:white;
+}
+.btn1{
+	background:orange;
+	color:white;
+	outline:none;
+	border:none;
+	border-radius:50px;
+	height:50px;
+	width:110px;
+}
+small{
+	color:white;
+}
+a{
+	color:orange;
+	cursor:pointer;
+}

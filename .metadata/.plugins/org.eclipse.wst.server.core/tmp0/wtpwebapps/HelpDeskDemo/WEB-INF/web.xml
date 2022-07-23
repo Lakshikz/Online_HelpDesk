@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://xmlns.jcp.org/ns/javaee"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+id="WebApp_ID" version="3.0">
+
+<servlet>
+<servlet-name>login</servlet-name>
+<servlet-class>com.user.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>login</servlet-name>
+<url-pattern>/log</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UserInsert</servlet-name>
+<servlet-class>com.user.UserInsert</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>UserInsert</servlet-name>
+<url-pattern>/insert</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UpdateUser</servlet-name>
+<servlet-class>com.user.UpdateUserServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>UpdateUser</servlet-name>
+<url-pattern>/update</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>DeleteUser</servlet-name>
+<servlet-class>com.user.DeleteUserServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DeleteUser</servlet-name>
+<url-pattern>/delete</url-pattern>
+</servlet-mapping>
+
+</web-app>
+    
